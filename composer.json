@@ -1,0 +1,12 @@
+{
+    "name": "yehiel/invitations-qr",
+    "description": "Invitations par QR code : génération, envoi par email et contrôle à l'entrée",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "ext-gd": "*",
+        "ext-pdo_mysql": "*",
+        "chillerlan/php-qrcode": "^5.0",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
